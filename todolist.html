@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- local -->
+    <link rel="stylesheet" href="./todolist.css" />
+    <script defer src="./list.js"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-light"
+      style="background-color: rgb(137, 193, 231)"
+    >
+      <button class="btn btn-outline-success todo">to-do list</button>
+      <h2>Let's get stuff done!</h2>
+      <button class="btn btn-outline-success logout">log out</button>
+    </nav>
+
+    <div class="stat">
+      <table class="table table-bordered" style="width: 50%">
+        <thead>
+          <tr>
+            <th scope="col">Completed</th>
+            <th scope="col">Pending</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="status"></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container">
+      <div id="list"></div>
+    </div>
+
+    <!-- modal -->
+
+    <div class="popup">
+      <h3>Congratulations!</h3>
+      <p>You have completed 5 tasks.</p>
+      <p>Keep it going.</p>
+      <button id="popbtn" class="btn btn-primary">OK</button>
+    </div>
+  </body>
+</html>

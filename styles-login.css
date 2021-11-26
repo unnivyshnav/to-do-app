@@ -1,0 +1,76 @@
+body {
+    /* background: url(http://habrastorage.org/files/c9c/191/f22/c9c191f226c643eabcce6debfe76049d.jpg); */
+    /* font-family: "Amatic SC", cursive; */
+    font-weight: 700;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    width: 30rem;
+    border-radius: 0.5rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 5px 5px 10px #003458;
+    /* position: absolute; */
+    margin: 4rem auto;
+    /* background-color: rgb(82, 1, 1); */
+    background: linear-gradient(to bottom right, #dd43aa, #1386d8); 
+    padding: 2rem;
+  }
+  
+  .container .glyphicon-list-alt {
+    font-size: 6rem;
+    margin-top: 3rem;
+    color: #f8f8f8;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 1rem;
+    background-color: #ecf2f4;
+    border-radius: 0.2rem;
+    border: none;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .btn {
+    z-index: -1;
+    border-radius: 0.2rem;
+  }
+  .btn .glyphicon {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+  }
+  .full-width {
+    background-color: #8eb5e2;
+    width: 82%;
+   
+  }
+  
+  .box {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .inp {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.1rem;
+  }
+  
+  .fas {
+    margin-left: 1rem;
+    margin-top: 1.3rem;
+    color: rgb(160, 0, 0);
+    visibility: hidden;
+  }
+  
+  
