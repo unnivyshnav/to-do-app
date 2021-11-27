@@ -2,7 +2,7 @@
 font-family: 'Amatic SC', cursive; */
 
 body {
-    font-family: "Oswald", sans-serif;
+    /* font-family: "Oswald", sans-serif; */
     font-weight: 400;
     background-color: rgb(142, 213, 218);
     color: rgb(180, 154, 88);
@@ -68,12 +68,12 @@ body {
   }
   
   nav {
-    font-family: "Amatic SC", cursive;
+    /* font-family: "Amatic SC", cursive; */
     font-weight: 700;
   }
   
   nav h2 {
-    color: green;
+    color: rgb(0, 0, 0);
   }
   
   .todo {
