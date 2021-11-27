@@ -20,8 +20,9 @@ function counter(elem) {
       
     }
     else if(value >= 6) {
+      var s = `You have completed ${value} tasks`;
       $(".popup1").css("visibility", "visible");
-      document.getElementById("popy").innerHTML =  value;
+      document.getElementById("popy").innerHTML =  s;
     }
    
   });

@@ -1,6 +1,8 @@
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Amatic SC', cursive; */
-
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&display=swap');
 body {
     /* font-family: "Oswald", sans-serif; */
     font-weight: 400;
@@ -62,13 +64,13 @@ background-size:16px 16px;
     position: fixed;
     left: 25%;
     top: 30%;
-    color: grey;
+    color: rgb(20, 20, 20);
     padding: 25px 0;
-  
+    font-family: 'Catamaran', sans-serif;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.671);
+    /* backdrop-filter: blur(8px) opacity(100%); */
   }
   
   .popup h3, .popup1 h3 {
@@ -78,6 +80,7 @@ background-size:16px 16px;
   nav {
     /* font-family: "Amatic SC", cursive; */
     font-weight: 700;
+    font-family: 'M PLUS 1 Code', sans-serif;
 
   }
   
