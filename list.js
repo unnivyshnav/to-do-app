@@ -27,12 +27,12 @@ function counter(elem) {
    
   });
 
-  incomplete = 200 - completed;
+  // incomplete = 200 - completed;
 
-  $(".stat").css("visibility", "visible");
+  // $(".stat").css("visibility", "visible");
 
-  document.getElementById("status").innerHTML = `<td>${completed}</td>
-                            <td>${incomplete}</td>`;
+  // document.getElementById("status").innerHTML = `<td>${completed}</td>
+  //                           <td>${incomplete}</td>`;
 }
 
 // --------
