@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+
 body {
-    /* background: url(http://habrastorage.org/files/c9c/191/f22/c9c191f226c643eabcce6debfe76049d.jpg); */
-    /* font-family: "Amatic SC", cursive; */
-    font-weight: 700;
+  /* font-family: 'Comfortaa', cursive; */
+  font-family: 'Pacifico', cursive;
+  font-family: 'Rajdhani', sans-serif;
+
+    font-weight: 1500;
   }
   
   .jumbotron {
@@ -24,14 +33,18 @@ body {
     font-size: 6rem;
     margin-top: 3rem;
     color: #f8f8f8;
+    align-items: center;
   }
   
   input {
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 800;
     width: 100%;
     margin-bottom: 20px;
     padding: 1rem;
     background-color: #ecf2f4;
-    border-radius: 0.2rem;
+    border-radius: 0.3rem;
     border: none;
   }
   h2 {
@@ -41,15 +54,17 @@ body {
   }
   .btn {
     z-index: -1;
-    border-radius: 0.2rem;
+    border-radius: 0.3rem;
+    
   }
   .btn .glyphicon {
+    font-family: 'Rajdhani', sans-serif;
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
   }
   .full-width {
     background-color: #8eb5e2;
-    width: 82%;
+    width: 80%;
    
   }
   
@@ -63,7 +78,7 @@ body {
   .inp {
     display: flex;
     flex-direction: row;
-    margin-left: 2.1rem;
+    margin-left: 2.15rem;
   }
   
   .fas {
