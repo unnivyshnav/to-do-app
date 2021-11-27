@@ -54,7 +54,7 @@ background-size:16px 16px;
     border-radius: 5px;
   }
   
-  .popup {
+  .popup, .popup1 {
     visibility: hidden;
     z-index: 100;
     text-align: center;
@@ -71,7 +71,7 @@ background-size:16px 16px;
     backdrop-filter: blur(8px);
   }
   
-  .popup h3 {
+  .popup h3, .popup1 h3 {
     margin-bottom: 30px;
   }
   

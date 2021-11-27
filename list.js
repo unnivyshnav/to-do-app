@@ -17,7 +17,13 @@ function counter(elem) {
   promise.then((value) => {
     if (value == 5) {
       $(".popup").css("visibility", "visible");
+      
     }
+    else if(value >= 6) {
+      $(".popup1").css("visibility", "visible");
+      document.getElementById("popy").innerHTML =  value;
+    }
+   
   });
 
   incomplete = 200 - completed;
@@ -34,6 +40,9 @@ function counter(elem) {
 
 $("#popbtn").on("click", () => {
   $(".popup").css("visibility", "hidden");
+});
+$("#popbtn1").on("click", () => {
+  $(".popup1").css("visibility", "hidden");
 });
 
 // ------
